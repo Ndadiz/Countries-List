@@ -1,0 +1,99 @@
+body{
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeded;
+}
+header{
+    text-align: center;
+}
+h1{
+    color: #f2a93b;
+    text-shadow: 0 0 0  #f2a93b;
+}
+
+.control{
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    align-content: center;
+    margin-bottom: 20px;
+}
+.flex-buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+input{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 10px;
+    width: 600px;
+    height: 30px;
+    border-radius: 30px;
+    border: solid 2px #d7d7d7;
+}
+button{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #f2a93b;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 30px;
+}
+.flex-countries{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-country{
+    padding: 30px 15px;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+    gap: 10px;
+}
+.country-name{
+    font-size: 20px;
+    font-weight: 600;
+    color: #f2a93b;
+}
+p{
+    margin: 0;
+    font-weight: 500;
+}
+img{
+    margin: 0 auto;
+    width: 150px;
+    height: 100px;
+    box-shadow: 0 0  10px grey;
+}
+.population{
+    margin-right: 15px;
+}
+.wrapper{
+    margin-bottom: 50px;
+}
+.wrapper-2{
+    padding: 0 10px;
+    box-shadow: 0 0 5px grey;
+}
+.graph-wrapper{
+    background-color: rgb(237 234 234);
+    padding: 20px 50px;
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+}
+.graph-buttons{
+    text-align: center;
+    padding: 15px;
+}   

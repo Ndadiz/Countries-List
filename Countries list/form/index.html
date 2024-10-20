@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Montserrat;
+        }
+        header{
+            text-align: center;
+        }
+        .wrapper{
+            padding: 10px 35%;
+        }
+        input{
+            border-radius: 10px;
+            font-size: 20px;
+            margin-top: 10px;
+            width: 100%;
+            height: 30px;
+        }
+        label{
+            font-weight: 900;
+        }
+        button{
+            border: none;
+            border-radius: 10px;
+            background-color:#21bf73 ;
+            color: white;
+            font-size: 15px;
+            font-weight: 700;
+            padding: 15px;
+            width: 25%;
+        }
+        .message{
+            font-size: 15px;
+            color: #ffa500;
+            text-align: center;
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Validating Web Forms
+        </h1>
+    </header>
+    <main>
+        <div class="wrapper">
+            <form action="" method="get">
+                <p id="first-name-field">
+                  <label for="first-name">First Name:</label><br>
+                  <input type="text" name="first-name" id="first-name">
+                </p>
+                <p id="last-name-field">
+                    <label for="last-name">Last Name:</label><br>
+                    <input type="text" name="last-name" id="last-name">
+                </p>
+                <p id="email-field">
+                  <label for="email">Email:</label><br>
+                  <input type="email" name="email" id="email">
+                </p>
+                <p id="password-field">
+                    <label for="password">Password:</label><br>
+                    <input type="password" name="password" id="password">
+                </p>
+                <p id="telephone-field">
+                    <label for="telephone">Telephone:</label><br>
+                    <input type="tel" name="telephone" id="telephone">
+                </p>
+                <p id="bio-field">
+                    <label for="bio">Your bio:</label><br>
+                    <input type="text" name="bio" id="bio">
+                </p>
+                <button type="submit" id="sumbit-button">Sumbit</button>
+              </form>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
